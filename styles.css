@@ -43,9 +43,9 @@ body {
         padding: 5rem 3.5rem;
     }
 
-    .rectangle {width: 10rem; height: 0.5rem; margin: 0 -10px 0.3rem -10px}
+    .rectangle {width: 10rem; height: 0.5rem; margin: 0 -10px 0.4rem -10px}
 
-    .circle {width: 3.5vw; height:3.5vw;}
+    .circle {width: 3.75vw; height:3.75vw;}
 }
 
 @media screen and (max-width: 690px) {
@@ -53,6 +53,13 @@ body {
         padding: 3.5rem 2rem;
     }
 
-    .rectangle {width: 8rem; height: 0.3rem; margin: 0 -10px 0.1rem -10px}
+    .rectangle {width: 8rem; height: 0.3rem; margin: 0 -10px 0.3rem -10px}
 
 }
+
+@media screen and (max-width: 400px) {
+    .circle {width: 5vw; height:5vw;}
+
+    .rectangle {margin: 0 -10px 0.2rem -10px}
+}
+
